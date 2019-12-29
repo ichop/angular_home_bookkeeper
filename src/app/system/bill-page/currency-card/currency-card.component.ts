@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 @Component({
   selector: 'hbk-currency-card',
   templateUrl: './currency-card.component.html',
   styleUrls: ['./currency-card.component.scss']
 })
-export class CurrencyCardComponent implements OnInit {
+export class CurrencyCardComponent {
 
-  constructor() { }
+  @Input() currency: any;
 
-  ngOnInit() {
+  private currencies: string[] = ['USD', 'EUR'];
+
+  constructor() {
   }
+
+
 
 }
