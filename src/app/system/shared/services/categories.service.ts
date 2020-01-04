@@ -1,9 +1,9 @@
 import {HttpClient} from '@angular/common/http';
 import {Injectable} from '@angular/core';
+import {Observable} from 'rxjs';
 
 import {BaseApi} from '../../../shared/core/base-api';
 import {Category} from '../models/category.model';
-import {Observable} from 'rxjs';
 
 
 @Injectable()
