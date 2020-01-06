@@ -6,7 +6,7 @@ import {Observable} from 'rxjs';
 @Injectable()
 export class BaseApi {
 
-  private baseUrl = 'http://localhost:3000/';
+  private baseUrl = 'http://80.211.244.38:3000/';
 
   constructor(public http: HttpClient) {
   }
