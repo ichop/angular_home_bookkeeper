@@ -10,7 +10,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "server": "json-server --watch db.json --port 3000",
-    "dev": "concurrently --kill-others \"npm run start\"  \"npm run server\""
+    "dev": "concurrently --kill-others \"npm run start\"  \"npm run server\"",
+    "build:aot": "node --max_old_space_size=4096 node_modules/@angular/cli/bin/ng build --prod --aot"
   },
   "private": true,
   "dependencies": {
