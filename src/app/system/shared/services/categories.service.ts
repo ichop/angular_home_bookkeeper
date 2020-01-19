@@ -4,7 +4,7 @@ import {Observable} from 'rxjs';
 
 import {BaseApi} from '../../../shared/core/base-api';
 import {Category} from '../models/category.model';
-import {id} from '@swimlane/ngx-charts';
+
 
 
 @Injectable()
