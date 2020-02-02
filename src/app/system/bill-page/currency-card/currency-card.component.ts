@@ -9,7 +9,7 @@ export class CurrencyCardComponent {
 
   @Input() currency: any;
 
-  private currencies: string[] = ['USD', 'EUR'];
+  public currencies: string[] = ['USD', 'EUR'];
 
   constructor() {
   }
